@@ -1,5 +1,7 @@
 # **Nodeschool Portland, ME**
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/portland-me?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 >Learn Javascript & NodeJS through self-paced interactive workshops!
 
 Nodeschool Portland, Maine is part of the global Nodeschool effort to voluntarily teach NodeJS to anyone! The source code for the workshops is completely open source and the effort is entirely community driven. And the best part is, it's all free!
