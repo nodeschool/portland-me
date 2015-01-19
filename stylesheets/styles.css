@@ -8,6 +8,8 @@ body {
   font-weight:300;
 }
 
+ul, li { list-style: none; }
+
 b{
   color:#2c3e50
 }
