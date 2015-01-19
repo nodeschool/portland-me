@@ -1,5 +1,3 @@
-<img src="https://dl.dropboxusercontent.com/u/60918743/nodeschool_pwm_logo.png" alt="Nodeschool Portland, ME" style="width:120;height:138">
-
 # **Nodeschool Portland, ME**
 
 >Learn Javascript & NodeJS through self-paced interactive workshops!
