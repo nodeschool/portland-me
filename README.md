@@ -1,4 +1,4 @@
-<img src="https://dl.dropboxusercontent.com/u/60918743/nodeschool_pwm_logo.png" alt="Nodeschool Portland, ME" style="width:300;height:345">
+<img src="https://dl.dropboxusercontent.com/u/60918743/nodeschool_pwm_logo.png" alt="Nodeschool Portland, ME" style="width:120;height:138">
 
 # **Nodeschool Portland, ME**
 
@@ -13,7 +13,7 @@ The Portland, Maine chapter of Nodeschool was launched by [Carlo DiCelico](https
 Learn more about the international Nodeschool community at [nodeschool.io](nodeschool.io)
 
 ## Contact & Events
-* [Nodeschool Portland, ME website](https://nodeschool.io/portland-me)
+* [Nodeschool Portland, ME website](http://nodeschool.io/portland-me)
 * [Meetup](http://www.meetup.com/Portland-Maine-Nodeschool)
 * [Github](https://github.com/nodeschool/portland-me)
 * [Gitter](https://gitter.im/nodeschool/portland-me)
