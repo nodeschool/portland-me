@@ -17,6 +17,7 @@ Learn more about the international Nodeschool community at [nodeschool.io](nodes
 * [Meetup](http://www.meetup.com/Portland-Maine-Nodeschool)
 * [Github](https://github.com/nodeschool/portland-me)
 * [Gitter](https://gitter.im/nodeschool/portland-me)
+* [Twitter](https://twitter.com/NodeschoolPWM)
 * Organizers: [Carlo DiCelico](https://github.com/carlodicelico)
 * Mentors:
 
