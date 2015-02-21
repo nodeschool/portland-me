@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/monokai_sublime.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+          <img data-src="images/nodeschool_pwm_logo.png" alt="Nodeschool Portland Maine">
+          <h4>Welcome to the Portland Maine chapter of</h4>
+          <h1>Nodeschool</h1>
+					<p>
+          <small>Organized by <a href="https://github.com/carlodicelico">Carlo DiCelico</a> &amp; <a href="https://github.com/jaegerpicker">Shawn Campbell</a> and Sponsored by <a href="http://thinktankcoworking.com">ThinkTank</a></small>
+            <br><small><a href="http://nodeschool.io/portland-me">nodeschool.io/portland-me</a> - <a href="https://twitter.com/NodeschoolPWM">@NodeschoolPWM</a>
+            <br><a href="http://www.meetup.com/nodeschool-portland-me">meetup.com/nodeschool-portland-me</a> - <a href="https://gitter.im/nodeschool/portland-me">gitter.im/nodeschool/portland-me</a>
+            <br><a href="http://nodeschool.io/portland-me/workshops/one/slides">http://nodeschool.io/portland-me/workshop-one/slides</a></small>
+					</p>
+          <aside class="notes">
+            <p>Announcements:</p>
+            <ul>
+              <li>Big thanks to ThinkTank for providing an awesome space! Check out their website, thinktankcoworking.com</li>
+              <li>Snacks and beverages are located at the horseshoe-shaped bar area - help yourself!</li>
+              <li>There are places all around to get something more substantial to eat, if you want</li>
+              <li>Restrooms are wherever the restrooms are...</li>
+              <li>Mezzanine is off limits!</li>
+              <li>Any questions? Ask an organizer or a mentor (would organizers/mentors mind raising their hands?)</li>
+              <li>We want your feedback!</li>
+              <li>Any questions?</li>
+            </ul>
+          </aside>
+				</section>
+
+				<!-- What is Nodeschool? -->
+        <section>
+          <h1>What is Nodeschool?</h1>
+        </section>
+				<section>
+          <section>
+						<h2>International</h2>
+						<p class="fragment">There are currently 80 Nodeschool chapters worldwide</p>
+            <p class="fragment">More join nearly every month</p>
+						<br>
+						<img data-src="images/tokyo_nodeschool.JPG" alt="Nodeschool Tokyo Japan">
+            <aside class="notes">
+              <p>The picture in the slide is of a Nodeschool event that took place in Tokyo, Japan</p>
+            </aside>
+					</section>
+					<section>
+						<h2>Community-organized</h2>
+						<p class="fragment">Run entirely by volunteers</p>
+            <p class="fragment">using Open Source software</p>
+            <img height="450" data-src="images/bklyn_nodeschool_a.jpeg" alt="Nodeschool Brooklyn NY">
+					  <aside class="notes">
+              <p>Communication happens via Github and Gitter</p>
+              <p>The image in the slide is of a Nodeschool workshop that took place in Brooklyn NY</p>
+            </aside>
+					</section>
+					<section>
+						<h2>In-person Workshops</h2>
+						<p class="fragment">Collaboration-based learning</p>
+            <p class="fragment">with mentors to help answer tough questions</p>
+            <img height="450" data-src="images/london_nodeschool.png" alt="London Nodeschool">
+            <aside class="notes">
+              <p>The images shows some nodesters at a workshop in London, England</p>
+            </aside>
+					</section>
+					<section>
+						<h2>On NodeJS</h2>
+						<p class="fragment">While Nodeschool is very technology-specific,</p>
+						<p class="fragment">you'll be surprised at how much you can do with node</p>
+            <img data-src="images/node-logo.png" alt="NodeJS">
+					</section>
+          <section>
+						<h2>Putting it all together, Nodeschool is</h2>
+            <p class="fragment">International <span class="fragment">community-organized </span><span class="fragment">in-person workshops </span><span class="fragment">on NodeJS</span></p>
+            <p class="fragment">and now there's one here in Portland! <img height="450" data-src="images/greetings.jpg" alt="Portland Maine"></p>
+						</a>
+					</section>
+				</section>
+
+				<section>
+          <h1>But wait...what's NodeJS?</h1>
+				</section>
+
+        <section>
+          <section>
+					<h2>Side Note...</h2>
+          <p><b>The 'JS' in 'NodeJS' stands for <a href="http://en.wikipedia.org/wiki/JavaScript">Javascript</a><span class="fragment"> a programming language</span></b> <span class="fragment">with <a href="http://en.wikipedia.org/wiki/C_(programming_language)">C</a> syntax </span><span class="fragment">, based on ideas from <a href="http://en.wikipedia.org/wiki/Scheme_(programming_language)">Scheme</a> and <a href="http://en.wikipedia.org/wiki/Smalltalk">Smalltalk</a></span> <b><span class="fragment">and originally made to run in web browsers</span></b></p>
+          </section>
+          <section>
+            <h2>Javascript looks like this</h2>
+            <pre><code data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
+
+    var nodes = document.querySelectorAll( selector );
+
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
+
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+            </code></pre>
+            <h2 class="fragment">and is not related to</h2>
+          </section>
+          <section>
+            <h2>the Java programming language</h2>
+            <img data-src="images/Java_logo_and_wordmark.png" height="450" alt="Java">
+          </section>
+          <section>
+            <h2>the tasty beverage</h2>
+            <img data-src="images/Javanese_Kopi_Tubruk.jpg" height="450" alt="Java">
+          </section>
+          <section>
+            <h2>or the island in Indonesia</h2>
+            <img data-src="images/Jakarta_Car_Free_Day.jpg" height="450" alt="Java">
+          </section>
+				</section>
+
+				<section>
+          <h1>NodeJS is something that lets you run Javascript <em>anywhere</em></h1>
+				</section>
+
+				<section>
+          <section>
+            <img data-src="images/after_before_cool.jpg" height="450" alt="Since back in the day, yo">
+					</section>
+          <section>
+            <h1>Learn some Git!</h1>
+            <aside class="notes">
+              <p>Git is just a tool that lets us keep track of different versions of our work and then share that work with others</p>
+            </aside>
+					</section>
+          <section>
+            <h1>Learn some Javascript!</h1>
+					</section>
+          <section>
+            <h1>Learn some Node!</h1>
+					</section>
+          <section>
+            <img data-src="images/code_all.jpg" alt="Code all the things!">
+          </section>
+          <section>
+            <img height="450" data-src="images/dreams.jpg" alt="Follow your dreams!">
+          </section>
+			  </section>
+        <section>
+          <h2>Cool infographics about NodeJS</h2>
+          <a href="https://strongloop.com/wp-content/uploads/2015/02/final-node-infographic-2-10-15v3.pdf">NodeJS Goes Mainstream in the Enterprise</a>
+          <br><a href="https://www.engineyard.com/infographics/nodejs">Getting to Know Node</a>
+          <br><a href="http://blog.modulus.io/growth-of-npm-infographic">Growth of NPM</a>
+        </section>
+        <section>
+          <h1>Let's get started!</h1>
+        </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
