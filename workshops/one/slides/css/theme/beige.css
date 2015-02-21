@@ -16,9 +16,7 @@ body {
   background: -o-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
   background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
   background: radial-gradient(center, circle cover, #ffffff 0%, #f7f2d3 100%);
-  background-color: #f7f3de;
-  background-image: url('../../../images/test-bg.png');
-  background-blend-mode: multiply; }
+  background-color: #f7f3de; }
 
 .reveal {
   font-family: 'Lato', sans-serif;

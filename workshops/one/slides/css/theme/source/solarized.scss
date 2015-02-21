@@ -24,6 +24,11 @@ html * {
 	rendering-intent: auto;
 }
 
+body {
+  background-image: url('../../../images/test-bg.png') !important;
+  background-blend-mode: multiply;
+}
+
 // Solarized colors
 $base03:    #002b36;
 $base02:    #073642;
@@ -56,8 +61,6 @@ $selectionBackgroundColor: $magenta;
 // @mixin bodyBackground() {
 // 	@include radial-gradient( rgba($base3,1), rgba(lighten($base3, 20%),1) );
 // }
-
-
 
 // Theme template ------------------------------
 @import "../template/theme";

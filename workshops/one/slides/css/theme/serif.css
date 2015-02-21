@@ -12,9 +12,7 @@
  *********************************************/
 body {
   background: #F0F1EB;
-  background-color: #F0F1EB;
-  background-image: url('../../../images/test-bg.png');
-  background-blend-mode: multiply; }
+  background-color: #F0F1EB; }
 
 .reveal {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;

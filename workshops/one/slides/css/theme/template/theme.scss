@@ -7,8 +7,6 @@
 body {
 	@include bodyBackground();
 	background-color: $backgroundColor;
-  background-image: url('http://nodeschool.io/portland-me/workshops/slides/images/test-bg.png');
-  background-blend-mode: multiply;
 }
 
 .reveal {

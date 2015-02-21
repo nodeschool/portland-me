@@ -10,9 +10,7 @@
  *********************************************/
 body {
   background: #111;
-  background-color: #111;
-  background-image: url('../../../images/test-bg.png');
-  background-blend-mode: multiply; }
+  background-color: #111; }
 
 .reveal {
   font-family: 'Open Sans', sans-serif;

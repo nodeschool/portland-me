@@ -12,9 +12,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 body {
   background: #222;
-  background-color: #222;
-  background-image: url('../../../images/test-bg.png');
-  background-blend-mode: multiply; }
+  background-color: #222; }
 
 .reveal {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;

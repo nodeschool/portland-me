@@ -16,9 +16,7 @@ html * {
  *********************************************/
 body {
   background: #002b36;
-  background-color: #002b36;
-  background-image: url('../../../images/test-bg.png');
-  background-blend-mode: multiply; }
+  background-color: #002b36; }
 
 .reveal {
   font-family: 'Lato', sans-serif;
