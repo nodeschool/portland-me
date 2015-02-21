@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  background-color: #ecf0f1;
+  background-color: #fef3d6;
+  background-image: url('https://dl.dropboxusercontent.com/u/60918743/test-bg.png');
+  background-repeat: repeat;
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#7f8c8d;
@@ -173,7 +175,9 @@ header ul a strong {
 section {
   width:500px;
   float:right;
+  padding:15px;
   padding-bottom:50px;
+  background-color:#fff;
 }
 
 small {
